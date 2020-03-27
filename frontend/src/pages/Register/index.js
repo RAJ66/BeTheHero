@@ -17,7 +17,7 @@ export default function Register() {
             Do your registration, get into the platform and help people to find
             your ONG incidents.
           </p>
-          <Link className="back-link" to="/">
+          <Link className="back-link" to="/profile">
             <FiArrowLeft size={16} color="#E02041" />I have an account
           </Link>
         </section>
