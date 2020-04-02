@@ -51,7 +51,7 @@ export default function Profile() {
       <header>
         <img src={logoImg} alt="Be The Hero" />
         <span>Welcome,{ongName}</span>
-        <Link className="button" to="/indidents/new">
+        <Link className="button" to="/incidents/new">
           Register new incidents
         </Link>
 
