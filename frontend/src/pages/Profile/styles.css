@@ -28,7 +28,7 @@
   width: 60px;
   height: 60px;
   border-radius: 4px;
-  border: 1px solid #dcdce6;
+  border: 1px solid var(--color-border);
   background: transparent;
   margin-left: 16px;
   transition: border-color 0.2s;
@@ -51,7 +51,7 @@
 }
 
 .profile-container ul li {
-  background: #fff;
+  background: var(--color-white);
   padding: 24px;
   border-radius: 8px;
   position: relative;
@@ -71,7 +71,7 @@
 .profile-container ul li strong {
   display: block;
   margin-bottom: 16px;
-  color: #41414d;
+  color: var(--color-link);
 }
 
 .profile-container ul li p + strong {
