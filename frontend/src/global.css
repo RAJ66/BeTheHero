@@ -6,7 +6,7 @@
   outline: 0;
   box-sizing: border-box;
 }
-
+/*
 html {
   --bg: #f0f0f5;
   --bg-panel: #ebebeb;
@@ -17,6 +17,18 @@ html {
   --color-border: #dcdce6;
   --color-border-hover: #999;
   --color-link: #41414d;
+}
+*/
+html {
+  --bg: #212121;
+  --bg-panel: #323232;
+  --color: #e02041;
+  --color-white: #323232;
+  --color-text-form: #f2f2f2;
+  --color-text: ##f2f2f2;
+  --color-border: #dcdce6;
+  --color-border-hover: #999;
+  --color-link: #f2f2f2;
 }
 
 body {
@@ -33,6 +45,10 @@ textarea {
 
 button {
   cursor: pointer;
+}
+h1,
+p {
+  color: var(--color-text-form);
 }
 
 form input {
