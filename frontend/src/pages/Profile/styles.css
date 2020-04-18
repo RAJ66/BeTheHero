@@ -71,7 +71,7 @@
 .profile-container ul li strong {
   display: block;
   margin-bottom: 16px;
-  color: var(--color-link);
+  color: #323232;
 }
 
 .profile-container ul li p + strong {
@@ -79,7 +79,11 @@
 }
 
 .profile-container ul li p {
-  columns: #737380;
+  columns: #323232;
   line-height: 21px;
   font-size: 16px;
+}
+
+.profile-container p {
+  color: #323232 !important;
 }

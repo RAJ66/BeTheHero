@@ -23,7 +23,8 @@ button {
   cursor: pointer;
 }
 h1,
-p {
+p,
+span {
   color: var(--color-link);
 }
 
