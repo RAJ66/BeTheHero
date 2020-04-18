@@ -11,13 +11,15 @@ import logoImg from "../../assets/logo.svg";
 
 export default function Logon() {
   const [id, setId] = useState("");
+  const [theme, setTheme] = useState("light");
+
   const history = useHistory();
 
   const html = document.querySelector("html");
 
   function transformKeyMy(key) {
     for (let index = 0; index < key.length; index++) {
-      if (key[index] == key[index].toUpperCase()) {
+      if (key[index] === key[index].toUpperCase()) {
         key = key.replace(key[index], "-" + key[index].toLowerCase());
       }
     }
@@ -30,21 +32,16 @@ export default function Logon() {
     );
   };
 
-  let tmp = "light";
   function change() {
-    if (tmp == "light") {
+    if (theme === "light") {
       changeColors(darkMode);
       localStorage.setItem("theme", "dark");
-      tmp = "dark";
-      console.log(tmp);
+      setTheme("dark");
     } else {
       changeColors(lightMode);
       localStorage.setItem("theme", "light");
-
-      tmp = "light";
-      console.log(tmp);
+      setTheme("light");
     }
-    console.log("change");
   }
   useEffect(() => {
     init();
@@ -52,10 +49,10 @@ export default function Logon() {
 
   function init() {
     let theme = localStorage.getItem("theme");
-    if (theme == "light") {
-      tmp = "dark";
+    if (theme === "light") {
+      setTheme("dark");
     } else {
-      tmp = "light";
+      setTheme("light");
     }
     change();
   }

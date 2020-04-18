@@ -22,11 +22,9 @@ textarea {
 button {
   cursor: pointer;
 }
-h1 {
-  color: var(--color-link);
-}
+h1,
 p {
-  color: var(--color-textForm);
+  color: var(--color-link);
 }
 
 form input {
