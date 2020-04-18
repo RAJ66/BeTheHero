@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiLogIn } from "react-icons/fi";
 
@@ -14,10 +14,6 @@ export default function Logon() {
   const history = useHistory();
 
   const html = document.querySelector("html");
-  //const checkbox = document.querySelector("input[name=theme]");
-
-  // const getStyle = (element, style) =>
-  //   window.getComputedStyle(element).getPropertyValue(style);
 
   function transformKeyMy(key) {
     for (let index = 0; index < key.length; index++) {
@@ -49,6 +45,19 @@ export default function Logon() {
       console.log(tmp);
     }
     console.log("change");
+  }
+  useEffect(() => {
+    init();
+  }, []);
+
+  function init() {
+    let theme = localStorage.getItem("theme");
+    if (theme == "light") {
+      tmp = "dark";
+    } else {
+      tmp = "light";
+    }
+    change();
   }
 
   const darkMode = {
