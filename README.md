@@ -24,9 +24,14 @@
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
+- [Jest](https://jestjs.io/)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Cors](https://www.npmjs.com/package/cors)
 
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+
+## 🦸‍♂️Extra Features
+
+- Dark Theme Web
