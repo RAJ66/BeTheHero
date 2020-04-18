@@ -23,11 +23,11 @@ html {
   --bg: #212121;
   --bg-panel: #323232;
   --color: #e02041;
-  --color-white: #323232;
-  --color-text-form: #f2f2f2;
+  --color-white: #f2f2f2;
+  --color-textForm: #f2f2f2;
   --color-text: ##f2f2f2;
   --color-border: #dcdce6;
-  --color-border-hover: #999;
+  --color-borderHover: #999;
   --color-link: #f2f2f2;
 }
 
@@ -46,15 +46,17 @@ textarea {
 button {
   cursor: pointer;
 }
-h1,
+h1 {
+  color: var(--color-link);
+}
 p {
-  color: var(--color-text-form);
+  color: var(--color-textForm);
 }
 
 form input {
   width: 100%;
   height: 60px;
-  color: var(--color-text-form);
+  color: var(--color-textForm);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 0 24px;
@@ -64,7 +66,7 @@ form textarea {
   min-height: 140px;
   width: 100%;
   height: 60px;
-  color: var(--color-text-form);
+  color: var(--color-textForm);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 16px 24px;
