@@ -21,7 +21,7 @@
 </p>
 
 <div align="center">
-<img alt="dark" src="./img/macDark.png" style="width: 40%;">
+<img alt="dark" src="./img/dark.png" style="width: 40%;">
 <img alt="light" src="./img/light.png" style="width: 40%;margin-left:10px;">
 </div>
 
