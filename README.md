@@ -20,6 +20,11 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+<div align="center">
+<img alt="dark" src="./img/macDark.png" style="width: 40%;">
+<img alt="light" src="./img/light.png" style="width: 40%;margin-left:10px;">
+</div>
+
 ## 💻Stack
 
 - [Node.js](https://nodejs.org/en/)
