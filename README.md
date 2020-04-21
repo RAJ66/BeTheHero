@@ -21,8 +21,8 @@
 </p>
 
 <div align="center">
-<img alt="dark" src="./img/dark.png" style="width: 40%;">
-<img alt="light" src="./img/light.png" style="width: 40%;margin-left:10px;">
+<img alt="dark" src="./img/darkMode.png" style="width: 40%;">
+<img alt="light" src="./img/lightMode.png" style="width: 40%;margin-left:10px;">
 </div>
 
 ## 💻Stack
