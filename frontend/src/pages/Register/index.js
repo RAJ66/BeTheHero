@@ -30,7 +30,8 @@ export default function Register() {
 
     try {
       const response = await api.post("ongs", data);
-      alert("Your id: " + response.data.id);
+      alert(`Your id: ${response.data.id}`);
+
       history.push("/");
     } catch (error) {
       alert("Error in the register, try again.");
